@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_glossary_play"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/drawable-mdpi/btn_glossary_play.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_glossary_item"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/layout/activity_glossary_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_glossary_list"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/layout/activity_glossary_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_glossary_list_item"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/layout/item_glossary_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="glossary_list"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/menu/glossary_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="aba"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/raw/aba.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ababasir"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/raw/ababasir.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="abad"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/raw/abad.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="abbas"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/raw/abbas.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="abbasid"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/raw/abbasid.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="glossary_item_play_btn" >80dp
+                </dimen>
+                <dimen name="font_size_glossary_list_item" >18sp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_glossary_item_padding" >30dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="font_size_glossary_name" >30sp
+                </dimen>
+                <dimen name="font_size_glossary_definition" >26sp
+                </dimen>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_glossary_list" >Glossary List
+                </string>
+                <string name="app_name" >Baha\'i Glossary
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values-land/dimens.xml"
+                qualifiers="land" >
+                <dimen name="font_size_glossary_name" >40sp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="glossary_item_play_btn" >120dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_glossary_item_padding" >36dp
+                </dimen>
+                <dimen name="font_size_glossary_list_item" >22sp
+                </dimen>
+                <dimen name="font_size_glossary_definition" >28sp
+                </dimen>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" >
+                <dimen name="activity_glossary_item_padding" >40dp
+                </dimen>
+                <dimen name="font_size_glossary_list_item" >24sp
+                </dimen>
+                <dimen name="glossary_item_play_btn" >120dp
+                </dimen>
+                <dimen name="font_size_glossary_name" >50sp
+                </dimen>
+                <dimen name="font_size_glossary_definition" >28sp
+                </dimen>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values-sw600dp-land/dimens.xml"
+                qualifiers="sw600dp-land" >
+                <dimen name="font_size_glossary_list_item" >30sp
+                </dimen>
+                <dimen name="glossary_item_play_btn" >120dp
+                </dimen>
+                <dimen name="activity_glossary_item_padding" >60dp
+                </dimen>
+                <dimen name="font_size_glossary_definition" >36sp
+                </dimen>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/debug/res" />
+    </dataSet>
+
+</merger>

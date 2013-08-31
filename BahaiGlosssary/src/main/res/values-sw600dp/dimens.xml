@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="font_size_glossary_name">50sp</dimen>
+    <dimen name="font_size_glossary_definition">28sp</dimen>
+    <dimen name="font_size_glossary_list_item">24sp</dimen>
+    <dimen name="glossary_item_play_btn">120dp</dimen>
+    <dimen name="activity_glossary_item_padding">40dp</dimen>
+</resources>

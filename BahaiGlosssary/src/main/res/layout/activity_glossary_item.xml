@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/activity_glossary_item_padding"
+              tools:context=".MainActivity">
+
+<LinearLayout
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <com.studioclassics.utils.AutoResizeTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_glossary_name"
+            android:text="Large Text"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            />
+
+    <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="@dimen/glossary_item_play_btn"
+            android:layout_height="@dimen/glossary_item_play_btn"
+            android:layout_gravity="center"
+            android:src="@drawable/btn_glossary_play"
+            android:layout_margin="20dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+
+/>
+
+    <TextView
+            android:id="@+id/tvDefinition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_glossary_definition"
+            android:text="Large Text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="10"
+            android:fontFamily="sans-serif-light"
+            />
+
+
+
+
+</LinearLayout>
+</ScrollView>

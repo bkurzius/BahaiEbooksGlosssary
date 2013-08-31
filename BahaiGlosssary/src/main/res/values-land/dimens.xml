@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_glossary_name">40sp</dimen>
+    <dimen name="font_size_glossary_definition">28sp</dimen>
+    <dimen name="font_size_glossary_list_item">22sp</dimen>
+    <dimen name="glossary_item_play_btn">120dp</dimen>
+    <dimen name="activity_glossary_item_padding">36dp</dimen>
+</resources>

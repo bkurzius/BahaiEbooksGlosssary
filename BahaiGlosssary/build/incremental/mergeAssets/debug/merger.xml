@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/assets" >
+            <file
+                name="glossary.json"
+                path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/assets/glossary.json" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/debug/assets" />
+    </dataSet>
+
+</merger>
