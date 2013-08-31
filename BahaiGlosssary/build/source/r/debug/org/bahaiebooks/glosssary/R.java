@@ -25,18 +25,26 @@ public final class R {
         public static final int font_size_glossary_list_item=0x7f050004;
         public static final int font_size_glossary_name=0x7f050005;
         public static final int glossary_item_play_btn=0x7f050006;
+        public static final int padding_large=0x7f050007;
+        public static final int padding_medium=0x7f050008;
+        public static final int padding_small=0x7f050009;
     }
     public static final class drawable {
-        public static final int btn_glossary_play=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int icon=0x7f020002;
+        public static final int btn_back=0x7f020000;
+        public static final int btn_forward=0x7f020001;
+        public static final int btn_glossary_play=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int icon=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
-        public static final int btnPlay=0x7f090001;
-        public static final int lvGlossary=0x7f090003;
-        public static final int tvDefinition=0x7f090002;
-        public static final int tvTitle=0x7f090000;
+        public static final int action_settings=0x7f090007;
+        public static final int btnPlay=0x7f090002;
+        public static final int btn_next=0x7f090004;
+        public static final int btn_previous=0x7f090005;
+        public static final int layout_buttons=0x7f090000;
+        public static final int lvGlossary=0x7f090006;
+        public static final int tvDefinition=0x7f090003;
+        public static final int tvTitle=0x7f090001;
     }
     public static final class layout {
         public static final int activity_glossary_item=0x7f030000;

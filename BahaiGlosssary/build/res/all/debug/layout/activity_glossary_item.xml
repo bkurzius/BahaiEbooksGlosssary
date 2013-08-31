@@ -1,14 +1,21 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+<ScrollView
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:padding="@dimen/activity_glossary_item_padding"
-              tools:context=".MainActivity">
+              android:paddingLeft="@dimen/activity_glossary_item_padding"
+              android:paddingRight="@dimen/activity_glossary_item_padding"
+              android:layout_above="@+id/layout_buttons"
+              >
 
 <LinearLayout
    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_gravity="center">
     <com.studioclassics.utils.AutoResizeTextView
             android:id="@+id/tvTitle"
@@ -45,7 +52,32 @@
             />
 
 
-
-
 </LinearLayout>
-</ScrollView><!-- From: file:/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/layout/activity_glossary_item.xml -->
+
+</ScrollView>
+    <RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_buttons"
+    android:layout_alignParentBottom="true"
+            android:padding="@dimen/padding_medium">
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_next"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_forward"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"/>
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_previous"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_back"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+</RelativeLayout><!-- From: file:/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/layout/activity_glossary_item.xml -->

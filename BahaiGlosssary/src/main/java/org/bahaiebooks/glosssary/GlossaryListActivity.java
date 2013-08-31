@@ -23,6 +23,7 @@ import java.util.List;
 
 public class GlossaryListActivity extends Activity {
     public static final String EXTRA_MP3 = "extras_mp3";
+    public static final String EXTRA_ITEM_NUMBER = "extras_item_number";
     public static final String EXTRA_TITLE = "extras_title";
     public static final String EXTRA_DEFINITION = "extras_definition";
     public List<GlossaryItem> glossaryItems;
@@ -73,6 +74,7 @@ public class GlossaryListActivity extends Activity {
                     glossaryItemIntent.putExtra(EXTRA_TITLE,glossaryItems.get(i).getTitle());
                     glossaryItemIntent.putExtra(EXTRA_MP3,glossaryItems.get(i).getMp3());
                     glossaryItemIntent.putExtra(EXTRA_DEFINITION,glossaryItems.get(i).getDefinition());
+                    glossaryItemIntent.putExtra(EXTRA_ITEM_NUMBER,i);
                     startActivity(glossaryItemIntent);
                 }
             });
