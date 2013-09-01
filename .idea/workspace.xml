@@ -45,10 +45,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517ea4e1-a1af-4366-b8d7-dd464ad769bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BahaiGlosssary/src/main/java/org/bahaiebooks/glosssary/GlossaryItemActivity.java" afterPath="$PROJECT_DIR$/BahaiGlosssary/src/main/java/org/bahaiebooks/glosssary/GlossaryItemActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BahaiGlosssary/build/source/r/debug/org/bahaiebooks/glosssary/R.java" afterPath="$PROJECT_DIR$/BahaiGlosssary/build/source/r/debug/org/bahaiebooks/glosssary/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BahaiGlosssary/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/BahaiGlosssary/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BahaiGlosssary/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/BahaiGlosssary/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BahaiGlosssary.iws" />
@@ -756,7 +752,11 @@
       <created>1377978642312</created>
       <updated>1377978642312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix hiding definition">
+      <created>1378018077732</created>
+      <updated>1378018077732</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -851,7 +851,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="update layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="update layout" />
+    <MESSAGE value="fix hiding definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix hiding definition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
