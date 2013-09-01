@@ -15,7 +15,9 @@
     <!-- From: file:/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">Baha\'i Glossary</string>
+    <string name="first_item_in_list">You have reached the first item in the list</string>
     <string name="hello_world">Hello world!</string>
+    <string name="last_item_in_list">You have reached the last item in the list</string>
     <string name="title_activity_glossary_list">Glossary List</string>
     <!-- From: file:/Users/briankurzius/Documents/workspace/BahaiGlosssaryProject/BahaiGlosssary/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">

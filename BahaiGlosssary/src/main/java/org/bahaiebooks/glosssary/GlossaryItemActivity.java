@@ -86,13 +86,12 @@ public class GlossaryItemActivity extends Activity{
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d(TAG,"clicked the button");
 
                 if(itemNumber<glossaryItems.size()-1){
                     itemNumber++;
                     setGlossaryItem();
                 }else{
-                    Toast.makeText(GlossaryItemActivity.this,"no more items",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GlossaryItemActivity.this,R.string.last_item_in_list,Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -102,13 +101,12 @@ public class GlossaryItemActivity extends Activity{
         btnPrevious.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d(TAG,"clicked the button");
 
                 if(itemNumber>0){
                     itemNumber--;
                     setGlossaryItem();
                 }else{
-                    Toast.makeText(GlossaryItemActivity.this,"no more items",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GlossaryItemActivity.this,R.string.first_item_in_list,Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -127,6 +125,7 @@ public class GlossaryItemActivity extends Activity{
             itemDefinition.setVisibility(View.GONE);
         }else{
             itemDefinition.setText(Html.fromHtml(definition));
+            itemDefinition.setVisibility(View.VISIBLE);
         }
         int identifier2 = getResources().getIdentifier("raw/" + mp3, null, this.getPackageName());
         mp = MediaPlayer.create(GlossaryItemActivity.this, identifier2);
